@@ -1,0 +1,93 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+$main-color: rgb(179, 153, 8);
+$main-light: lighten($main-color, 10%);
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  &__title {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    &::after {
+      content: "";
+      display: block;
+      width: 100px;
+      margin: 0 auto;
+      padding-top: 10px;
+      border-bottom: 3px solid $main-color;
+    }
+  }
+  &__button {
+    margin: 20px 5px;
+    padding: 10px 15px;
+    border: 3px solid $main-color;
+    border-radius: 10px;
+    max-width: 200px;
+    min-height: 20px;
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    &:hover {
+      cursor: pointer;
+      background-color: $main-light;
+      color: white;
+    }
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 25px;
+  gap: 15px 15px;
+
+  &__dish {
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 40%;
+  }
+
+  &__img {
+    max-width: 170px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 3px solid $main-color;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 10px;
+      border-bottom: 3px solid grey;
+    }
+  }
+
+  &__price {
+    color: $main-color;
+  }
+  &__descr {
+    margin-top: 30px;
+  }
+}
