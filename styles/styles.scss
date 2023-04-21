@@ -7,6 +7,7 @@ $main-light: lighten($main-color, 10%);
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   font-family: "Roboto", sans-serif;
   &__title {
@@ -53,19 +54,20 @@ $main-light: lighten($main-color, 10%);
   width: 100%;
   min-height: 100vh;
   font-size: 25px;
-  gap: 15px 15px;
+  gap: 50px 50px;
 
   &__dish {
-    max-width: 500px;
+    width: 100%;
+    max-width: 550px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex: 1 1 40%;
   }
 
   &__img {
     max-width: 170px;
-    margin: 20px;
+    margin-right: 20px;
     border-radius: 10px;
     border: 3px solid $main-color;
   }
@@ -92,6 +94,6 @@ $main-light: lighten($main-color, 10%);
     color: $main-color;
   }
   &__descr {
-    margin-top: 30px;
+    margin-top: 15px;
   }
 }
