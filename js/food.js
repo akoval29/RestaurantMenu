@@ -4,7 +4,7 @@ export const allFood = [
     type: "breakfast",
     price: 15.5,
     description:
-      "Non tempore cum, magni atque accusantium labore ab, laborum qui    error. Exercitationem voluptatem nulla quam iste et, molestiae maiores reiciendis vitae nam eum repellat quo consequatur nesciunt est facilis velit!",
+      "Non tempore cum, magni atque accusantium labore ab, laborum qui error. Exercitationem voluptatem nulla quam iste et!",
     imageSrc:
       "https://d1e3z2jco40k3v.cloudfront.net/-/media/kamisua2018/recipes/800/hamburger_beef_barbecue_800.jpg?rev=9a1df6bdc80f4aa9a68355c852c8bfe6&vd=20200706T004057Z&hash=FACB3CBDFE36F53B8650A3AA18F67C31",
   },
@@ -22,9 +22,9 @@ export const allFood = [
     type: "dinner",
     price: 2580.0,
     description:
-      "Eos facilis reiciendis ipsum eveniet veniam, quod voluptatem totam mollitia? Quam, officiis reprehenderit, vitae suscipit mollitia molestias ex minus tempore, commodi voluptate sint soluta laboriosam doloremque eum nisi pariatur iure dicta ipsam.",
+      "Eos facilis reiciendis ipsum eveniet veniam, quod voluptatem totam mollitia? Quam, officiis reprehenderit.",
     imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2022/12/photo_2022-12-13_15-05-08-300x300.jpg",
+      "https://smokers.kiev.ua/wp-content/uploads/2022/12/photo_2022-12-13_15-05-08.jpg",
   },
   {
     name: "Double focaccia pulled beef set",
@@ -32,8 +32,7 @@ export const allFood = [
     price: 490.0,
     description:
       "Dolor sit amet consectetur adipisicing elit. Exercitationem minima voluptate beatae doloremque, suscipit culpa illum officiis tempora.",
-    imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1232-300x300.jpg",
+    imageSrc: "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1232.jpg",
   },
   {
     name: "Double meatballs hotdogs set",
@@ -41,8 +40,7 @@ export const allFood = [
     price: 680.0,
     description:
       "Mollitia nesciunt doloremque harum vero, aspernatur eligendi, illum nemo cumque a repellat eius odit fuga! ",
-    imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1266-300x300.jpg",
+    imageSrc: "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1266.jpg",
   },
   {
     name: "Double italy burgers set",
@@ -50,8 +48,7 @@ export const allFood = [
     price: 685.0,
     description:
       "Sed maxime quisquam itaque nostrum, eum soluta maiores optio architecto unde illo facilis deleniti iusto ut. ",
-    imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1236-300x300.jpg",
+    imageSrc: "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1236.jpg",
   },
   {
     name: "3 kg big italy set",
@@ -59,8 +56,7 @@ export const allFood = [
     price: 2100.0,
     description:
       "Culpa nobis laborum dolores incidunt similique ad maiores delectus vel. Fugit, asperiores? ",
-    imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1237-300x300.jpg",
+    imageSrc: "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1237.jpg",
   },
   {
     name: "4 kg super company set",
@@ -69,7 +65,7 @@ export const allFood = [
     description:
       "Optio aspernatur nostrum atque, aliquam dolores, nulla quidem excepturi ad voluptas quia, perspiciatis natus. ",
     imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/03/photo_2023-03-02_19-13-29-300x300.jpg",
+      "https://smokers.kiev.ua/wp-content/uploads/2023/03/photo_2023-03-02_19-13-29.jpg",
   },
   {
     name: "Double strips set",
@@ -77,17 +73,15 @@ export const allFood = [
     price: 360.0,
     description:
       "Accusamus iure distinctio quo ea blanditiis commodi quas ab placeat asperiores, at natus. ",
-    imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/01/img_0244-300x300.jpg",
+    imageSrc: "https://smokers.kiev.ua/wp-content/uploads/2023/01/img_0244.jpg",
   },
   {
     name: "Quatro beef cheese set",
     type: "lunch",
     price: 640.0,
     description:
-      "Labore corporis ad molestias asperiores repellendus explicabo suscipit est cupiditate. Asperiores necessitatibus vitae, magnam repudiandae explicabo id quibusdam doloribus ea non, similique laborum quis natus dolorum saepe corrupti sint.",
-    imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1243-300x300.jpg",
+      "Labore corporis ad molestias asperiores repellendus explicabo suscipit est cupiditate. Asperiores necessitatibus vitae, magnam repudiandae.",
+    imageSrc: "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1243.jpg",
   },
   {
     name: "Double brisket & pastrami",
@@ -95,17 +89,16 @@ export const allFood = [
     price: 550.0,
     description:
       "Mollitia nesciunt doloremque harum vero, aspernatur eligendi, illum nemo cumque a repellat eius odit fuga! ",
-    imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1240-300x300.jpg",
+    imageSrc: "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1240.jpg",
   },
   {
     name: "Double seaside set",
     type: "lunch",
     price: 777.0,
     description:
-      "Incidunt aperiam numquam magnam qui saepe minima mollitia ipsum exercitationem! Doloremque nisi sint laborum, cupiditate blanditiis quia alias quibusdam optio atque laudantium, cum dolore sapiente consequuntur error eum voluptatem quaerat.",
+      "Incidunt aperiam numquam magnam qui saepe minima mollitia ipsum exercitationem! Doloremque nisi sint laborum!",
     imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2022/11/photo_2022-11-10_20-03-09-300x300.jpg",
+      "https://smokers.kiev.ua/wp-content/uploads/2022/11/photo_2022-11-10_20-03-09.jpg",
   },
   {
     name: 'Truffle "cheese bath"',
@@ -114,7 +107,7 @@ export const allFood = [
     description:
       "Culpa nobis laborum dolores incidunt similique ad maiores delectus vel. Fugit, asperiores? ",
     imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2022/12/photo_2022-12-13_15-05-00-300x300.jpg",
+      "https://smokers.kiev.ua/wp-content/uploads/2022/12/photo_2022-12-13_15-05-00.jpg",
   },
   {
     name: "Tomato and meat bath",
@@ -123,7 +116,7 @@ export const allFood = [
     description:
       "Dolor sit amet consectetur adipisicing elit. Exercitationem minima voluptate beatae doloremque, suscipit culpa illum officiis tempora.",
     imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/04/photo_2023-04-18_19-15-50-300x300.jpg",
+      "https://smokers.kiev.ua/wp-content/uploads/2023/04/photo_2023-04-18_19-15-50.jpg",
   },
   {
     name: "Shocolate cocktail",
@@ -149,6 +142,15 @@ export const allFood = [
     description:
       "Culpa nobis laborum dolores incidunt similique ad maiores delectus vel. Fugit, asperiores?",
     imageSrc: "https://vsviti.com.ua/wp-content/uploads/2013/03/coctail_01.jpg",
+  },
+  {
+    name: "Margarita",
+    type: "cocktail",
+    price: 32.0,
+    description:
+      "Incidunt aperiam numquam magnam qui saepe minima mollitia ipsum exercitationem! Doloremque nisi!",
+    imageSrc:
+      "https://images.absolutdrinks.com/drink-images/Raw/Absolut/c8bc404c-fc30-4ec8-a9a5-0dca3913bbbb.jpg",
   },
 ];
 // https://www.menu.anneson.com/

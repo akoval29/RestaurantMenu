@@ -12,7 +12,7 @@ destructure(allFood);
 
 // навішуєм обробники подій на btn
 btnAll.addEventListener("click", () => {
-  main.innerHTML = "";
+  main.innerHTML = ""; // видалити все з main
   destructure(allFood);
 });
 btnBreak.addEventListener("click", () => {
@@ -40,26 +40,31 @@ function onUpdate(value) {
   destructure(arr);
 }
 
+// деструктуризація
 function destructure(arr) {
   for (let i = 0; i < arr.length; i++) {
     let name = arr[i].name;
     let price = arr[i].price;
     let descr = arr[i].description;
     let src = arr[i].imageSrc;
-
     generator(name, price, descr, src);
   }
 }
 
+// генеруєм верстку
 function generator(name, price, descr, src) {
   const mainDish = document.createElement("div");
   mainDish.classList.add("main__dish");
 
+  const mainImgWrap = document.createElement("div");
+  mainImgWrap.classList.add("main__img-wrap");
+  mainDish.appendChild(mainImgWrap);
+
   const img = document.createElement("img");
   img.classList.add("main__img");
   img.src = src;
-  img.alt = name;
-  mainDish.appendChild(img);
+  img.alt = name.replace(/\s+/g, "-"); // замінюєм пробіли на дефіси
+  mainImgWrap.appendChild(img);
 
   const mainInfo = document.createElement("div");
   mainInfo.classList.add("main__info");
