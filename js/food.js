@@ -59,13 +59,13 @@ export const allFood = [
     imageSrc: "https://smokers.kiev.ua/wp-content/uploads/2023/04/img_1237.jpg",
   },
   {
-    name: "4 kg super company set",
+    name: "Prime Beef",
     type: "dinner",
-    price: 2980.0,
+    price: 290.0,
     description:
       "Optio aspernatur nostrum atque, aliquam dolores, nulla quidem excepturi ad voluptas quia, perspiciatis natus. ",
     imageSrc:
-      "https://smokers.kiev.ua/wp-content/uploads/2023/03/photo_2023-03-02_19-13-29.jpg",
+      "https://smokers.kiev.ua/wp-content/uploads/2021/12/133-2048x1365.jpg",
   },
   {
     name: "Double strips set",
