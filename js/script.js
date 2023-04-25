@@ -7,7 +7,7 @@ const btnLunch = document.querySelector(".header__button--lunch");
 const btnShakes = document.querySelector(".header__button--shakes");
 const btnDinner = document.querySelector(".header__button--dinner");
 
-// Пеший запуск
+// Перший запуск
 destructure(allFood);
 
 // навішуєм обробники подій на btn
@@ -53,43 +53,19 @@ function destructure(arr) {
 
 // генеруєм верстку
 function generator(name, price, descr, src) {
-  const mainDish = document.createElement("div");
-  mainDish.classList.add("main__dish");
-
-  const mainImgWrap = document.createElement("div");
-  mainImgWrap.classList.add("main__img-wrap");
-  mainDish.appendChild(mainImgWrap);
-
-  const img = document.createElement("img");
-  img.classList.add("main__img");
-  img.src = src;
-  img.alt = name.replace(/\s+/g, "-"); // замінюєм пробіли на дефіси
-  mainImgWrap.appendChild(img);
-
-  const mainInfo = document.createElement("div");
-  mainInfo.classList.add("main__info");
-  mainDish.appendChild(mainInfo);
-
-  const mainWrap = document.createElement("div");
-  mainWrap.classList.add("main__wrap");
-  mainInfo.appendChild(mainWrap);
-
-  const mainName = document.createElement("h3");
-  mainName.classList.add("main__name");
-  mainName.textContent = name;
-  mainWrap.appendChild(mainName);
-
-  const mainPrice = document.createElement("h3");
-  mainPrice.classList.add("main__price");
-  mainPrice.textContent = `${price} ₴`;
-  mainWrap.appendChild(mainPrice);
-
-  const mainDescr = document.createElement("p");
-  mainDescr.classList.add("main__descr");
-  mainDescr.textContent = descr;
-  mainInfo.appendChild(mainDescr);
-
-  main.appendChild(mainDish);
-
-  return mainDish;
+  const str = `
+    <div class="main__dish">
+      <div class="main__img-wrap">
+        <img class="main__img" src=${src} alt="${name.replace(/\s+/g, "-")}">
+      </div>
+      <div class="main__info">
+        <div class="main__wrap">
+          <h3 class="main__name">${name}</h3>
+          <h3 class="main__price">${price} ₴</h3>
+        </div>
+        <p class="main__descr">${descr}</p>
+      </div>
+    </div>
+  `;
+  main.innerHTML += str;
 }
