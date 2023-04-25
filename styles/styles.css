@@ -72,6 +72,11 @@
     flex-wrap: wrap;
   }
 }
+@media (max-width: 990px) {
+  .main__dish {
+    max-width: 100%;
+  }
+}
 .main__img-wrap {
   display: flex;
   justify-content: center;

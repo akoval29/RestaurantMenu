@@ -73,6 +73,9 @@ $main-light: lighten($main-color, 10%);
     @media (max-width: 550px) {
       flex-wrap: wrap;
     }
+    @media (max-width: 990px) {
+      max-width: 100%;
+    }
   }
 
   &__img-wrap {
