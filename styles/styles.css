@@ -1,0 +1,129 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+}
+.header__title {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.header__title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-bottom: 3px solid rgb(179, 153, 8);
+}
+.header__button {
+  margin: 20px 5px;
+  padding: 10px 15px;
+  border: 3px solid rgb(179, 153, 8);
+  border-radius: 10px;
+  max-width: 200px;
+  min-height: 20px;
+  background-color: transparent;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header__button:hover {
+  cursor: pointer;
+  background-color: #e4c30a;
+  color: white;
+}
+.header__button:active {
+  transform: scale(0.9);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 1500px;
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  margin: 0 auto;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  gap: 50px 50px;
+}
+.main__dish {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  max-width: 550px;
+  flex: 1 1 45%;
+}
+@media (max-width: 550px) {
+  .main__dish {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 990px) {
+  .main__dish {
+    max-width: 100%;
+  }
+}
+.main__img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__img {
+  border: 3px solid rgb(179, 153, 8);
+  border-radius: 10px;
+  height: 150px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 550px) {
+  .main__img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.main__info {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 250px;
+  padding: 0 20px;
+}
+.main__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1 1 45%;
+}
+.main__wrap::after {
+  content: "";
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-bottom: 3px solid grey;
+}
+.main__name, .main__price, .main__descr {
+  font-size: 14px;
+}
+.main__price {
+  color: rgb(179, 153, 8);
+}
+.main__descr {
+  margin-top: 15px;
+}/*# sourceMappingURL=styles.css.map */
